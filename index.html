@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Coffea - Your cozy Berlin coffee haven. Exceptional coffee, delicious Vietnamese-inspired food, and a welcoming atmosphere in Lichtenberg. Best banh mi in Berlin!">
+    <meta name="keywords" content="Coffea Berlin, Café Lichtenberg, Banh Mi Berlin, Matcha Latte, Vegan Café Berlin, Vietnamese Coffee, Coffee Shop Berlin">
+    <meta name="author" content="Coffea Berlin">
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Coffea - Your Cozy Berlin Coffee Haven">
+    <meta property="og:description" content="Exceptional coffee, delicious Vietnamese-inspired food, and welcoming atmosphere in Berlin Lichtenberg">
+    <meta property="og:image" content="./images/source/main.jpg">
+    <meta property="og:url" content="https://f246632.github.io/187_Coffea">
+
+    <!-- Schema.org structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Cafe",
+      "name": "Coffea",
+      "image": "./images/source/main.jpg",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Lückstraße 56",
+        "addressLocality": "Berlin",
+        "postalCode": "10317",
+        "addressCountry": "DE"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "reviewCount": "323"
+      },
+      "priceRange": "$$",
+      "servesCuisine": ["Coffee", "Vietnamese", "Vegan"],
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Wednesday", "Thursday", "Friday"],
+          "opens": "09:00",
+          "closes": "18:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Saturday", "Sunday"],
+          "opens": "10:00",
+          "closes": "18:00"
+        }
+      ]
+    }
+    </script>
+
+    <title>Coffea - Your Cozy Berlin Coffee Haven | Lichtenberg</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h2>Coffea</h2>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#menu" class="nav-link">Menu</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#reviews" class="nav-link">Reviews</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Coffea</h1>
+            <p class="hero-subtitle">Your Cozy Berlin Coffee Haven</p>
+            <p class="hero-description">Exceptional Coffee • Vietnamese Cuisine • Vegan-Friendly</p>
+            <div class="hero-buttons">
+                <a href="#menu" class="btn btn-primary">View Menu</a>
+                <a href="#contact" class="btn btn-secondary">Visit Us</a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <a href="#about" aria-label="Scroll down">
+                <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15 5V25M15 25L7 17M15 25L23 17" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Welcome to Coffea</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="lead">A vibrant and cozy café in Berlin's Lichtenberg district, Coffea is your perfect spot for exceptional coffee, delicious Vietnamese-inspired food, and a welcoming atmosphere.</p>
+                    <p>Whether you're looking to work on your laptop, enjoy a relaxing coffee break, or indulge in possibly the <strong>best banh mi in Berlin</strong>, Coffea offers a unique blend of great coffee culture and affordable, quality food.</p>
+                    <p>Our café features a carefully curated selection of specialty coffees, including seasonal favorites like popcorn latte and cheesecake latte, alongside traditional Vietnamese dishes made with fresh, quality ingredients.</p>
+                    <div class="rating-badge">
+                        <div class="stars">★★★★★</div>
+                        <div class="rating-text">4.8/5 • 323+ Reviews</div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="./images/source/main.jpg" alt="Coffea café interior" loading="lazy">
+                </div>
+            </div>
+
+            <!-- Features Grid -->
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">☕</div>
+                    <h3>Premium Coffee</h3>
+                    <p>Expertly crafted coffee drinks and specialty brews</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🥖</div>
+                    <h3>Vietnamese Cuisine</h3>
+                    <p>Authentic banh mi, bao buns, and dumplings</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🌱</div>
+                    <h3>Vegan-Friendly</h3>
+                    <p>All drinks can be made vegan, plus delicious vegan food options</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💻</div>
+                    <h3>Work-Friendly</h3>
+                    <p>Free WiFi, comfortable seating, perfect for working</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📚</div>
+                    <h3>Books & Games</h3>
+                    <p>Board games and books to enjoy while you relax</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🍵</div>
+                    <h3>Tea Selection</h3>
+                    <p>Large variety of premium tea options</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu" id="menu">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Menu</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle">All drinks can be made vegan • Fresh, quality ingredients</p>
+            </div>
+
+            <div class="menu-categories">
+                <!-- Coffee -->
+                <div class="menu-category">
+                    <h3 class="category-title">Coffee ☕</h3>
+                    <div class="menu-items">
+                        <div class="menu-item featured">
+                            <div class="item-header">
+                                <h4 class="item-name">Matcha Latte <span class="badge">Popular</span></h4>
+                                <span class="item-price">€4.50</span>
+                            </div>
+                            <p class="item-description">Premium Japanese matcha with steamed milk</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4 class="item-name">Cappuccino</h4>
+                                <span class="item-price">€3.50</span>
+                            </div>
+                            <p class="item-description">Classic Italian coffee with steamed milk</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4 class="item-name">Flat White</h4>
+                                <span class="item-price">€3.80</span>
+                            </div>
+                            <p class="item-description">Smooth microfoam coffee</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4 class="item-name">Espresso</h4>
+                                <span class="item-price">€2.80</span>
+                            </div>
+                            <p class="item-description">Rich and bold Italian espresso</p>
+                        </div>
+                        <div class="menu-item seasonal">
+                            <div class="item-header">
+                                <h4 class="item-name">Popcorn Latte <span class="badge seasonal">Seasonal</span></h4>
+                                <span class="item-price">€4.80</span>
+                            </div>
+                            <p class="item-description">Seasonal specialty coffee</p>
+                        </div>
+                        <div class="menu-item seasonal">
+                            <div class="item-header">
+                                <h4 class="item-name">Cheesecake Latte <span class="badge seasonal">Seasonal</span></h4>
+                                <span class="item-price">€4.80</span>
+                            </div>
+                            <p class="item-description">Seasonal specialty coffee</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Food -->
+                <div class="menu-category">
+                    <h3 class="category-title">Food 🥖</h3>
+                    <div class="menu-items">
+                        <div class="menu-item featured">
+                            <div class="item-header">
+                                <h4 class="item-name">Banh Mi <span class="badge vegan">Vegan</span> <span class="badge">Best in Berlin</span></h4>
+                                <span class="item-price">€5.50</span>
+                            </div>
+                            <p class="item-description">Vietnamese sandwich with pickled veggies, soy meat, chili-mayo, cilantro & peanuts</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4 class="item-name">Bao Buns <span class="badge vegan">Vegan</span></h4>
+                                <span class="item-price">€6.50</span>
+                            </div>
+                            <p class="item-description">Steamed Asian buns with various fillings</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4 class="item-name">White Rose Dumplings</h4>
+                                <span class="item-price">€7.00</span>
+                            </div>
+                            <p class="item-description">Delicate Vietnamese dumplings</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4 class="item-name">Breakfast Options</h4>
+                                <span class="item-price">€8.50</span>
+                            </div>
+                            <p class="item-description">Various breakfast plates and bowls</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tea -->
+                <div class="menu-category">
+                    <h3 class="category-title">Tea 🍵</h3>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4 class="item-name">Green Tea</h4>
+                                <span class="item-price">€3.20</span>
+                            </div>
+                            <p class="item-description">Selection of premium green teas</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4 class="item-name">Black Tea</h4>
+                                <span class="item-price">€3.20</span>
+                            </div>
+                            <p class="item-description">Various black tea options</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4 class="item-name">Herbal Tea</h4>
+                                <span class="item-price">€3.20</span>
+                            </div>
+                            <p class="item-description">Large selection of herbal infusions</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Desserts -->
+                <div class="menu-category">
+                    <h3 class="category-title">Desserts 🍰</h3>
+                    <div class="menu-items">
+                        <div class="menu-item featured">
+                            <div class="item-header">
+                                <h4 class="item-name">Vegan Pecan Chocolate Pie <span class="badge vegan">Vegan</span></h4>
+                                <span class="item-price">€4.50</span>
+                            </div>
+                            <p class="item-description">Rich chocolate cake with pecan, tastes like vegan cheesecake</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4 class="item-name">Vegan Cakes <span class="badge vegan">Vegan</span></h4>
+                                <span class="item-price">€4.00</span>
+                            </div>
+                            <p class="item-description">Daily changing selection of vegan cakes</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4 class="item-name">Cookies <span class="badge vegan">Vegan</span></h4>
+                                <span class="item-price">€2.50</span>
+                            </div>
+                            <p class="item-description">Fresh baked cookies (mostly vegan)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Gallery</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle">Take a look inside our cozy café</p>
+            </div>
+            <div class="gallery-grid" id="galleryGrid">
+                <!-- Images will be loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews" id="reviews">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">What Our Customers Say</h2>
+                <div class="title-underline"></div>
+                <div class="overall-rating">
+                    <div class="stars-large">★★★★★</div>
+                    <p class="rating-summary">4.8 out of 5 stars • Based on 323+ reviews</p>
+                </div>
+            </div>
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">"This place is 10/10. This cafe is cute, vibrant and cozy."</p>
+                    <p class="review-author">— Google User</p>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">"Possibly the best banh mi! Cool coffee and food choices with affordable prices. They also have books, board games or you can bring your own book."</p>
+                    <p class="review-author">— Customer Review</p>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">"The cozy atmosphere allows you to relax after a hard working day. Great matcha latte and cappuccino. The staff is terrific!"</p>
+                    <p class="review-author">— Restaurant Patron</p>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">★★★★☆</div>
+                    <p class="review-text">"The Banh Mi for 5,5€ is with pickled veggies, soy meat and a chili-mayo as well as cilantro and peanuts a fresh and delicious vegan sandwich."</p>
+                    <p class="review-author">— rose-lineo, abillion</p>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">★★★★☆</div>
+                    <p class="review-text">"This pecan chocolate pie tastes like a vegan juicy cheesecake and the cake ground is very intensive tasting like chocolate. So it's definitely a 9/10 for me."</p>
+                    <p class="review-author">— rose-lineo, abillion</p>
+                </div>
+            </div>
+            <div class="review-cta">
+                <a href="https://www.google.com/maps/search/?api=1&query=Coffea&query_place_id=ChIJxyNyDHlPqEcRyH7G6aOStAg" target="_blank" rel="noopener" class="btn btn-primary">Read More Reviews</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Visit Us</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-card">
+                        <h3>📍 Address</h3>
+                        <p>Lückstraße 56<br>10317 Berlin<br>Deutschland</p>
+                    </div>
+                    <div class="info-card">
+                        <h3>🕒 Opening Hours</h3>
+                        <div class="hours-list">
+                            <div class="hours-row">
+                                <span>Monday</span>
+                                <span>09:00 - 18:00</span>
+                            </div>
+                            <div class="hours-row closed">
+                                <span>Tuesday</span>
+                                <span>Closed</span>
+                            </div>
+                            <div class="hours-row">
+                                <span>Wednesday - Friday</span>
+                                <span>09:00 - 18:00</span>
+                            </div>
+                            <div class="hours-row">
+                                <span>Saturday - Sunday</span>
+                                <span>10:00 - 18:00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <h3>📱 Connect With Us</h3>
+                        <div class="social-links">
+                            <a href="https://www.instagram.com/coffeaberlin/" target="_blank" rel="noopener" class="social-link">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                                </svg>
+                                @coffeaberlin
+                            </a>
+                            <a href="https://www.facebook.com/coffeaberlin/" target="_blank" rel="noopener" class="social-link">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                                </svg>
+                                Coffea Berlin
+                            </a>
+                        </div>
+                        <div class="contact-details">
+                            <p>📧 info@coffeaberlin.de</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="map-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2427.8234567890123!2d13.5067891!3d52.5039013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a84e4f09721cc7%3A0x8b4a2e38e9c6feb7!2sLückstraße%2056%2C%2010317%20Berlin!5e0!3m2!1sen!2sde!4v1234567890123"
+                        width="100%"
+                        height="450"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Coffea location map">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Coffea</h3>
+                    <p>Your cozy Berlin coffee haven since 2020</p>
+                    <div class="footer-rating">
+                        ★★★★★ 4.8/5 • 323+ Reviews
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#reviews">Reviews</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Visit Us</h4>
+                    <p>Lückstraße 56<br>10317 Berlin</p>
+                    <p>Mon, Wed-Fri: 09:00-18:00<br>Sat-Sun: 10:00-18:00<br>Closed Tuesdays</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="footer-social">
+                        <a href="https://www.instagram.com/coffeaberlin/" target="_blank" rel="noopener" aria-label="Instagram">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.facebook.com/coffeaberlin/" target="_blank" rel="noopener" aria-label="Facebook">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Coffea Berlin. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightboxClose" aria-label="Close">&times;</button>
+        <button class="lightbox-prev" id="lightboxPrev" aria-label="Previous">‹</button>
+        <button class="lightbox-next" id="lightboxNext" aria-label="Next">›</button>
+        <img src="" alt="" id="lightboxImage">
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/gallery.js"></script>
+</body>
+</html>

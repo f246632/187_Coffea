@@ -1,0 +1,101 @@
+{
+  "coffee": [
+    {
+      "name": "Cappuccino",
+      "description": "Classic Italian coffee with steamed milk",
+      "price": "3.50"
+    },
+    {
+      "name": "Matcha Latte",
+      "description": "Premium Japanese matcha with steamed milk",
+      "price": "4.50",
+      "featured": true
+    },
+    {
+      "name": "Espresso",
+      "description": "Rich and bold Italian espresso",
+      "price": "2.80"
+    },
+    {
+      "name": "Flat White",
+      "description": "Smooth microfoam coffee",
+      "price": "3.80"
+    },
+    {
+      "name": "Popcorn Latte",
+      "description": "Seasonal specialty coffee",
+      "price": "4.80",
+      "seasonal": true
+    },
+    {
+      "name": "Cheesecake Latte",
+      "description": "Seasonal specialty coffee",
+      "price": "4.80",
+      "seasonal": true
+    }
+  ],
+  "tea": [
+    {
+      "name": "Green Tea",
+      "description": "Selection of premium green teas",
+      "price": "3.20"
+    },
+    {
+      "name": "Black Tea",
+      "description": "Various black tea options",
+      "price": "3.20"
+    },
+    {
+      "name": "Herbal Tea",
+      "description": "Large selection of herbal infusions",
+      "price": "3.20"
+    }
+  ],
+  "food": [
+    {
+      "name": "Banh Mi",
+      "description": "Vietnamese sandwich with pickled veggies, soy meat, chili-mayo, cilantro & peanuts",
+      "price": "5.50",
+      "vegan": true,
+      "featured": true
+    },
+    {
+      "name": "Bao Buns",
+      "description": "Steamed Asian buns with various fillings",
+      "price": "6.50",
+      "vegan": true
+    },
+    {
+      "name": "White Rose Dumplings",
+      "description": "Delicate Vietnamese dumplings",
+      "price": "7.00"
+    },
+    {
+      "name": "Breakfast Options",
+      "description": "Various breakfast plates and bowls",
+      "price": "8.50"
+    }
+  ],
+  "desserts": [
+    {
+      "name": "Vegan Pecan Chocolate Pie",
+      "description": "Rich chocolate cake with pecan, tastes like vegan cheesecake",
+      "price": "4.50",
+      "vegan": true,
+      "featured": true
+    },
+    {
+      "name": "Vegan Cakes",
+      "description": "Daily changing selection of vegan cakes",
+      "price": "4.00",
+      "vegan": true
+    },
+    {
+      "name": "Cookies",
+      "description": "Fresh baked cookies (mostly vegan)",
+      "price": "2.50",
+      "vegan": true
+    }
+  ],
+  "note": "All drinks can be made vegan. Most savory food is vegan or can be made vegan upon request."
+}

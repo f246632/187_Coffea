@@ -1,0 +1,51 @@
+{
+  "name": "Coffea",
+  "tagline": "Your Cozy Berlin Coffee Haven",
+  "category": "Café",
+  "address": {
+    "street": "Lückstraße 56",
+    "postal_code": "10317",
+    "city": "Berlin",
+    "country": "Deutschland",
+    "full": "Lückstraße 56, 10317 Berlin, Deutschland"
+  },
+  "contact": {
+    "phone": "+49 (to be verified)",
+    "email": "info@coffeaberlin.de",
+    "instagram": "@coffeaberlin",
+    "facebook": "facebook.com/coffeaberlin"
+  },
+  "hours": {
+    "monday": "09:00-18:00",
+    "tuesday": "Closed",
+    "wednesday": "09:00-18:00",
+    "thursday": "09:00-18:00",
+    "friday": "09:00-18:00",
+    "saturday": "10:00-18:00",
+    "sunday": "10:00-18:00"
+  },
+  "description": "A vibrant and cozy café in Berlin's Lichtenberg district, Coffea is your perfect spot for exceptional coffee, delicious Vietnamese-inspired food, and a welcoming atmosphere. Whether you're looking to work on your laptop, enjoy a relaxing coffee break, or indulge in possibly the best banh mi in Berlin, Coffea offers a unique blend of great coffee culture and affordable, quality food.",
+  "features": [
+    "Große Auswahl an Teesorten",
+    "Guter Kaffee",
+    "Frühstück",
+    "Allein speisen",
+    "Geeignet zum Arbeiten am Laptop",
+    "Vegan-friendly options",
+    "Books and board games",
+    "Cozy atmosphere",
+    "Free WiFi"
+  ],
+  "specialties": [
+    "Banh Mi (Vietnamese sandwiches)",
+    "Matcha Latte",
+    "Cappuccino",
+    "Bao Buns",
+    "Vegan cakes and cookies",
+    "White rose dumplings",
+    "Seasonal specialty coffee (popcorn latte, cheesecake latte)"
+  ],
+  "google_maps": "https://www.google.com/maps/search/?api=1&query=Coffea&query_place_id=ChIJxyNyDHlPqEcRyH7G6aOStAg",
+  "rating": "4.8/5",
+  "total_reviews": "323+"
+}

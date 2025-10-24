@@ -1,0 +1,35 @@
+{
+  "google_rating": "4.8/5",
+  "total_reviews": "323+",
+  "review_sources": ["Google", "Restaurant Guru", "Yelp", "abillion"],
+  "reviews": [
+    {
+      "author": "Google User",
+      "rating": 5,
+      "text": "This place is 10/10. This cafe is cute, vibrant and cozy.",
+      "date": "2024"
+    },
+    {
+      "author": "Customer Review",
+      "rating": 5,
+      "text": "Possibly the best banh mi! Cool coffee and food choices with affordable prices. They also have books, board games or you can bring your own book.",
+      "date": "2024"
+    },
+    {
+      "author": "Restaurant Patron",
+      "rating": 5,
+      "text": "The cozy atmosphere allows you to relax after a hard working day. Great matcha latte and cappuccino. The staff is terrific!",
+      "date": "2024"
+    }
+  ],
+  "highlights": [
+    "Great matcha latte and cappuccino",
+    "Nicely cooked sandwiches, bao and dumplings",
+    "Possibly the best banh mi",
+    "Terrific and accommodating staff",
+    "Cozy and vibrant atmosphere",
+    "Affordable prices",
+    "Books and board games available",
+    "Perfect for working on laptop"
+  ]
+}
